@@ -1,0 +1,162 @@
+body {
+  font-family: 'Dosis', sans-serif;
+  font-size: 17px;
+  color: #fff
+}
+
+
+.btn {
+  border-radius: 0;
+  font-family: 'Yanone Kaffeesatz','sans-serif';
+  font-size: 20px;
+  padding: 9px 23px;
+}
+
+a {
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -o-transition: 300ms;
+  transition: 300ms;
+}
+
+a:focus, 
+a:hover {
+  text-decoration: none;
+  outline: none
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Yanone Kaffeesatz', 'sans-serif';
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 36px
+}
+
+.navbar-toggle {
+  margin-top: 12px
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar-toggle, 
+.navbar-toggle:focus {
+  border:1px solid #fff;
+  outline: none;
+}
+/*************************
+*******Header CSS******
+**************************/
+
+.header-top {
+  display: block;
+  overflow: hidden;
+  padding: 25px;
+}
+
+.main-nav {
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+}
+
+.main-nav 
+.container {
+  width: 100%
+}
+
+.social-icons a {
+  font-size: 18px;
+  color: #fff;
+  padding-left:20px;  
+}
+
+.social-icons .fa-facebook:hover {
+  color: #3B5997
+}
+
+.social-icons .fa-twitter:hover {
+  color:#29C5F6
+}
+
+.social-icons .fa-google-plus:hover {
+  color:#D13D2F
+}
+
+.social-icons .fa-youtube:hover{
+  color: #ec5538
+}
+
+.navbar-brand {
+  background-color: #1B7B98;
+  height: 90px;
+  margin-bottom: 20px;
+  position: relative;
+  width: 297px;
+}
+
+.navbar-brand img {
+  position: absolute;
+  top: -35px;
+}
+
+.navbar-right {
+  background-color: #1B7B98;
+  padding:0 95px 0 0;
+  opacity: .9
+}
+
+.navbar-right li a {
+  padding: 35px 21px;
+  font-size: 22px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Yanone Kaffeesatz', 'sans-serif';
+  font-weight: 300;
+}
+
+.navbar-right li a:hover, 
+.navbar-right li a:focus,  
+.navbar-right .active a {
+  background-color: #fff;
+  color: #16728f
+}
+
+
+.fixed-menu {
+  background-color: #1B7B98;
+  position: fixed;
+  top: 0;
+}
+
+.fixed-menu .navbar-right {
+  padding: 0;
+}
+
+
+.fixed-menu .navbar-right li a {
+  font-size: 18px;
+  padding: 20px 25px;
+  text-shadow:inherit;
+}
+
+.fixed-menu .navbar-brand {
+  height: 60px;
+  margin-top: 0;
+  padding: 0;
+  margin-bottom: 0;
+  width: 125px;
+}
+
+.fixed-menu .navbar-brand img {
+  height:60px;
+  top: 0;
+}
+
+.fixed-menu .header-top {
+  display: none;
+}
